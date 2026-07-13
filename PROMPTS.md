@@ -1,0 +1,3 @@
+PROMPTS: PLACEHOLDER SECTION — AI CHALLENGE 
+
+I am designing a modern DevConf 2026 landing page using HTML and CSS. Generate a unique section that is different from Sponsors, FAQ, and Newsletter. The section should fit a developer conference theme, use a dark UI with purple/blue accents, include a title, subtitle, four feature cards with icons, hover animations, and be fully responsive using only HTML and CSS.

@@ -129,6 +129,7 @@ ul {
 .banner-heading {
   color: #ffffff;
   font-size: 80px;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   margin-bottom: 16px;
 }

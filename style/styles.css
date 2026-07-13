@@ -83,7 +83,7 @@ ul {
 
 .nav-content a {
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   color: #575757;
 }
@@ -137,7 +137,7 @@ ul {
 .banner-text {
   color: #FFFFFF;
   font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   max-width: 620px;
   margin: 0 auto 278px;
   line-height: 1.6;
@@ -154,6 +154,7 @@ ul {
 .section-heading {
   text-align: center;
   font-size: 56px;
+  font-family: "Inter", sans-serif;
   font-weight: bold;            
   margin-bottom: 56px;
 }
@@ -191,7 +192,7 @@ ul {
 .speaker-card-tag {
   display: block;
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   color: #2563EB;
   margin-bottom: 8px;
@@ -200,14 +201,14 @@ ul {
 .speaker-card-name {
   color: #0D1B2A;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+ font-family: "Inter", sans-serif;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
 .speaker-card-role {
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   color: #575757;
 }
 
@@ -220,6 +221,7 @@ ul {
   text-align: center;
   color: #575757;
   font-size: 16px;
+  font-family: "Inter", sans-serif;
   margin-top: -40px;
   margin-bottom: 48px;
 }
@@ -248,14 +250,14 @@ ul {
   font-size: 13px;
   font-weight: 700;
   color: #888888;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .price-card-price {
   font-size: 44px;
   font-weight: bold;
   margin-top: 8px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .price-card-period {
@@ -280,7 +282,7 @@ ul {
 .price-card-features li {
   position: relative;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
   color: #333333;
   padding-left: 20px;
   margin-bottom: 10px;
@@ -303,7 +305,7 @@ ul {
   color: #93C5FD;
   font-size: 13px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .price-card--featured {
   background: #0D1B2A;
@@ -323,4 +325,42 @@ ul {
 }
 
 
+
+
+/* Footer */
+.footer {
+    background: #0D1B2A;
+    padding: 56px 60px 69px;
+}
+
+.footer-container {
+    max-width: 1551px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    color:#FFFFFF;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.footer-right {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-right a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-right a:hover {
+    color: #ffffff;
+}
 

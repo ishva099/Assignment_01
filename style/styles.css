@@ -364,3 +364,105 @@ ul {
     color: #ffffff;
 }
 
+
+/* PLACEHOLDER SECTION — AI CHALLENGE */
+.innovation-zone{
+    padding:100px 8%;
+    background:#0B1220;
+}
+
+.innovation-zone .container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-header{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.section-header .tag{
+    display:inline-block;
+    padding:8px 18px;
+    background:rgba(99,102,241,.15);
+    color:#7C8CFF;
+    border:1px solid rgba(124,140,255,.4);
+    border-radius:50px;
+    font-size:14px;
+    font-family: "Inter", sans-serif;
+    margin-bottom:20px;
+}
+
+.section-header h2{
+    font-family: "Inter", sans-serif;
+    font-size:48px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.section-header p{
+    color:#A5B4C7;
+    max-width:700px;
+    font-family: "Inter", sans-serif;
+    margin:auto;
+    line-height:1.8;
+}
+
+.zone-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.zone-card{
+    background:#131E31;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:35px;
+    transition:.35s;
+}
+
+.zone-card:hover{
+    transform:translateY(-8px);
+    border-color:#7C8CFF;
+    box-shadow:0 20px 40px rgba(0,0,0,.3);
+}
+
+.icon{
+    width:65px;
+    height:65px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    border-radius:50%;
+    margin-bottom:25px;
+    background:linear-gradient(135deg,#6366F1,#8B5CF6);
+}
+
+.zone-card h3{
+    color:#fff;
+    margin-bottom:15px;
+    font-size:22px;
+    font-family: "Inter", sans-serif;
+}
+
+.zone-card p{
+    color:#A5B4C7;
+    line-height:1.7;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+@media(max-width:768px){
+
+    .innovation-zone{
+        padding:70px 20px;
+    }
+
+    .section-header h2{
+        font-size:34px;
+        
+    }
+
+}
